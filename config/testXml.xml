@@ -1,0 +1,26 @@
+﻿<Config TimeZone ="Pacific Standard Time" Continuous = "1 1.5 2 2.5 3">
+	<!--中文注释-->
+	<Images>
+		<Image Id = "1" Chip = "500" Stamp = "0" Rate = "150"/>
+		<Image Id = "2" Chip = "100" Stamp = "0" Rate = "100"/>
+		<Image Id = "3" Chip = "2000" Stamp = "0" Rate = "50"/>
+		<Image Id = "4" Chip = "250" Stamp = "0" Rate = "120"/>
+		<Image Id = "5" Chip = "1500" Stamp = "0" Rate = "80"/>
+		<Image Id = "6" Chip = "300" Stamp = "0" Rate = "120"/>
+		<Image Id = "7" Chip = "800" Stamp = "0" Rate = "100"/>
+		<Image Id = "8" Chip = "0" Stamp = "100" Rate = "30"/>
+		<Image Id = "9" Chip = "150" Stamp = "0" Rate = "150"/>
+		<Image Id = "10" Chip = "1000" Stamp = "0" Rate = "100"/>
+	</Images>
+	<FriendRewards>
+		<FriendReward Count = "0" RewardRate = "0"/>
+		<FriendReward Count = "1" RewardRate = "5"/>
+		<FriendReward Count = "2" RewardRate = "15"/>
+		<FriendReward Count = "3" RewardRate = "25"/>
+		<FriendReward Count = "5" RewardRate = "50"/>
+		<FriendReward Count = "10" RewardRate = "150"/>
+		<FriendReward Count = "15" RewardRate = "200"/>
+		<FriendReward Count = "25" RewardRate = "250"/>
+		<FriendReward Count = "9999" RewardRate = "250"/>
+	</FriendRewards>
+</Config>

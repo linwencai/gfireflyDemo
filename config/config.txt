@@ -1,0 +1,7 @@
+﻿#配置文件名	类型	说明
+#test.ini	ini	这是ini配表（一维）的例子
+#test2d.txt	2d	这是二维表的例子
+#testJson.txt	Json	这是json的例子
+#testXml.xml	xml	这是xml的例子
+#testEval.txt	eval	这是eval的例子
+#testCsv.csv	csv	这是csv的例子

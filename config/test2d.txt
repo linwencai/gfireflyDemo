@@ -1,0 +1,5 @@
+﻿主键	文字	整数	浮点数	列表或字典	策划备注（第三行填null）
+id	content	value1	value2	value3	mark
+primary	str	int	float	eval	null
+1	饿	23	1.0	[1,2,3]	备注1
+2	eeeee	45	2.0	{1:2}	备注2

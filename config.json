@@ -1,0 +1,57 @@
+{
+    "master": {
+        "roothost": "localhost",
+        "rootport": 999,
+        "webport": 998
+    },
+    "servers": {
+        "net": {
+            "webSocketPort":10100,
+            "netport": 10000,
+            "name": "net",
+            "remoteport": [
+                {
+                    "rootport": 10001,
+                    "rootname": "gate"
+                }
+            ],
+            "app": "app.NetServer",
+            "log": "logs/net.log"
+        },
+        "game": {
+            "name": "game",
+            "remoteport": [
+                {
+                    "rootport": 10001,
+                    "rootname": "gate"
+                }
+            ],
+            "db": true,
+            "mem": true,
+            "app": "app.GameServer",
+            "log": "logs/game.log"
+        },
+        "gate": {
+            "rootport": 10001,
+            "name": "gate",
+            "db": true,
+            "mem": true,
+            "app": "app.GateServer",
+            "log": "logs/gate.log"
+        }
+    },
+    "db": {
+        "host": "127.0.0.1",
+        "user": "root",
+        "passwd": "root",
+        "port": 3306,
+        "db": "firefly",
+        "charset": "utf8"
+    },
+    "memcached": {
+        "urls": [
+            "127.0.0.1:11211"
+        ],
+        "hostname": "mem"
+    }
+}
